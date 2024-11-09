@@ -9,6 +9,7 @@ import discord from '../assets/discord.svg'
 import telegram from '../assets/telegram.svg'
 import mastodon from '../assets/mastodon.svg'
 import bluesky from '../assets/bluesky.svg'
+import blog from '../assets/copy-writing.png'
 
 const { SITE_URL, RSS_URL } = Astro.locals
 const { channel } = Astro.props
@@ -98,6 +99,9 @@ const staticProxy = getEnv(import.meta.env, Astro, 'STATIC_PROXY') ?? '/static/'
         </a>
       )
     }
+    <a href="https://xuquan.site" title="XuQuan's Blog" target="_blank">
+      <img {...blog}  alt={`@Blog`} class="social-icon" width="1em" />
+    </a> 
   </div>
 </div>
 
