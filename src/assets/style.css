@@ -1,7 +1,7 @@
 :root {
-  --background-color: #f4f1ec;
-  --foreground-color: #000000;
-  --highlight-color: orangered;
+  --background-color: #E2E0DE;
+  --foreground-color: rgb(54, 53, 51);
+  --highlight-color: rgb(212, 67, 117);
   --box-border-radius: 3px;
   --media-border-radius: 8px;
   --dot-size: 8px;
@@ -22,21 +22,7 @@
 body {
   background-color: var(--background-color);
   color: var(--foreground-color);
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    Segoe UI,
-    Roboto,
-    Helvetica Neue,
-    Arial,
-    Noto Sans,
-    sans-serif,
-    Apple Color Emoji,
-    Segoe UI Emoji,
-    Segoe UI Symbol,
-    Noto Color Emoji;
+  font-family: Menlo, "Meslo LG", monospace
 }
 
 #wrapper {
